@@ -25,8 +25,7 @@ ok.addEventListener("click",okClick,false);
 function okClick(){
    for(var i=0; i<senha.value.length; i++){
       if(senha.value[i]===texto.value[0]){   
-         palavra.innerHTML[i] = texto.value[0];        
-         //palavra.innerHTML = palavra.innerHTML.substr(0,i)+texto.value[0]+palavra.innerHTML.substr(i+1);        
+         palavra.innerHTML = palavra.innerHTML.substr(0,i)+texto.value[0]+palavra.innerHTML.substr(i+1);        
       }
    }
 }
